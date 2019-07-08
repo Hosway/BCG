@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -91,6 +92,9 @@ nav ul li a:hover {
     width: 100%;
   }
 
+  .sec1 {
+    display: block;
+  }
 }
 
 nav.active ul {
@@ -164,7 +168,7 @@ nav.active ul {
 
 .team {
   width: 100%;
-  height: 80vh;
+  height: 40vh;
 }
 
 .members img {
@@ -197,6 +201,17 @@ i {
   color: #009432;
 }
 
+.title2 {
+  width: 100%;
+  height: 15vh;
+}
+
+.title2 h1 {
+  display: flex;
+  justify-content: center;
+  margin: 364px;
+}
+
 .flies {
   width: 100%;
   height: 70vh;
@@ -223,9 +238,82 @@ img {
   justify-content: center;
 }
 
+h3 {
+  font-weight: 400;
+}
+
 input {
   width: 20px;
   height: 20px;
   margin-top: 15px;
   margin-left: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 222px;
+  background: #dcdde1;
+}
+
+.col1 {
+  padding-right: 10rem;
+}
+
+.col1 h1 a {
+  text-decoration: none;
+  color: green;
+}
+
+.col2 ul li a {
+  text-decoration: none;
+  color: green;
+}
+
+.col2 ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.btn {
+  margin-left: 25px;
+  width: 50px;
+  height: 40px;
+  border-radius: 10%;
+  background: #009432;
+  color: whitesmoke;
+  margin-top: 5px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45vh;
+  margin-top: 125px;
+}
+
+.contactform input {
+  width: 500px;
+}
+
+textarea {
+  margin-left: 6px;
+}
+
+.image {
+  margin-right: 25px;
+}
+
+.submit {
+  background: #009432;
+  color: whitesmoke;
+  height: 5vh;
+}
+
+.map {
+  height: 60vh;
 }
